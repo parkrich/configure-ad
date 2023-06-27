@@ -20,29 +20,32 @@ This briefly goes over the creation of Active Directory in a Cloud Environment.<
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Setup Windows Server and Windows 10 VMs
+- Connect both VMs
+- Install Active Directory in Windows Server
+- Create Admin and "Employee" accounts in AD
+- Join Windows 10 to Windows Server IP
+- Setup Remote Desktop for Powershell generated users in Windows Server
+- Create users for Windows 10 access in Windows Server
 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This is PowerShell creating several thousand random users for the Active Directory database. Powershell code was pulled from pre-coded source.
 </p>
 
 ![image](https://github.com/parkrich/configure-ad/assets/137697108/3eb302eb-0b68-4470-af97-78e947200dc4)
 <br />
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Observing the random users in Active Directory uunder the "_Employees Organizational Unit. These will be the users that can access the Windows 10 machine under the domain forest created specifically for this lab, mydomain.com.
 </p>
 
 ![image](https://github.com/parkrich/configure-ad/assets/137697108/755c1fa4-7e39-4145-b6da-c2cd323122ec)
 <br />
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+One of the thousands of randomly generated users I selected to test to see if they can access the Windows 10 machine.
 </p>
 
 ![image](https://github.com/parkrich/configure-ad/assets/137697108/e8bc599d-6709-4e9a-b60d-a19d495967b3)

@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>Configuring Active Directory Deployed in the Cloud (Azure)</h1>
+<h1>Configuring Active Directory Within Azure VMs</h1>
 This briefly goes over the creation of Active Directory in a Cloud Environment.<br />
 
 

@@ -38,7 +38,7 @@ This is PowerShell creating several thousand random users for the Active Directo
 <br />
 
 <p>
-Observing the random users in Active Directory uunder the "_Employees Organizational Unit. These will be the users that can access the Windows 10 machine under the domain forest created specifically for this lab, mydomain.com.
+Observing the random users in Active Directory under the "_Employees" Organizational Unit. These will be the users that can access the Windows 10 machine under the domain forest created specifically for this lab, mydomain.com.
 </p>
 
 ![image](https://github.com/parkrich/configure-ad/assets/137697108/755c1fa4-7e39-4145-b6da-c2cd323122ec)
